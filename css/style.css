@@ -101,13 +101,14 @@
   background-blend-mode: overlay;
   background-size: cover;
   align-items: center;
+  justify-content: center;
 }
 
 .service-box {
   background-color: #fff;
   padding: 50px;
   border-radius: 5px;
-  width: 190px;
+  width: 220px;
   height: 150px;
   margin: 10px;
 }
