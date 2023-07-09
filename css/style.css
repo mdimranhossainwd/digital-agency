@@ -4,6 +4,7 @@
 }
 
 /* COMMON CSS  */
+
 .btn {
   padding: 17px 25px;
   border-radius: 2px;
@@ -11,6 +12,13 @@
   color: #fff;
   text-transform: uppercase;
   border: none;
+}
+
+.btn-overlay {
+  color: #444;
+  background-color: #fff;
+  border-radius: 50px;
+  margin-bottom: 15px;
 }
 
 .btn-primary {
@@ -82,4 +90,63 @@
 
 .banner-content button {
   margin-top: 20px;
+}
+
+/* SECTION-CONTAINER  */
+
+.service-area {
+  display: flex;
+  background-image: url("../img/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+  background-size: cover;
+  align-items: center;
+}
+
+.service-box {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  width: 190px;
+  height: 150px;
+  margin: 10px;
+}
+
+.service-box img {
+  width: 100px;
+}
+
+.service-content {
+  color: #fff;
+  width: 50%;
+}
+
+.service-content h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.service-content span {
+  color: rgb(245, 44, 44);
+}
+
+.service-content p {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.service-client-content {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.service-client-content img {
+  width: 70px;
+  border-radius: 50px;
+  margin-right: 25px;
+}
+
+.service-client-content button {
+  margin-left: 80px;
 }
