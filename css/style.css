@@ -3,6 +3,22 @@
   padding: 0;
 }
 
+/* COMMON CSS  */
+.btn {
+  padding: 17px 25px;
+  border-radius: 2px;
+  background: rgb(245, 44, 44);
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+}
+
+.btn-primary {
+  background: #fff;
+  color: #000;
+  margin-left: 15px;
+}
+
 .header-container {
   display: flex;
   justify-content: space-around;
@@ -24,4 +40,46 @@
   text-decoration: none;
   color: #444;
   font-size: 19px;
+}
+
+.menu ul li a:hover {
+  color: rgb(245, 44, 44);
+}
+
+/* BANNER-AREA-STARTED  */
+
+.banner-area {
+  background-image: url("../img/image/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  background-blend-mode: overlay;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-content h1 {
+  font-size: 85px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner-content span {
+  color: rgb(245, 44, 44);
+}
+
+.banner-content p {
+  font-size: 22px;
+  color: #fff;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-content button {
+  margin-top: 20px;
 }
